@@ -1,0 +1,54 @@
+{
+    "media": [
+        {
+            "title": "School Science Fair Poster",
+            "type": "IMAGE",
+            "url": "/uploads/war.jpg",
+            "thumbnailUrl": "/uploads/war.jpg",
+            "size": 1024576,
+            "dateUploaded": "2024-02-04",
+            "timeUploaded": "14:30:22",
+            "user": "67959c37c8047ebb00e0c325"
+        },
+        {
+            "title": "Annual Sports Day Group Photo",
+            "type": "IMAGE", 
+            "url": "/uploads/war.jpg",
+            "thumbnailUrl": "/uploads/war.jpg",
+            "size": 2048576,
+            "dateUploaded": "2024-01-15",
+            "timeUploaded": "10:45:33",
+            "user": "67959c37c8047ebb00e0c325"
+        },
+        {
+            "title": "Chemistry Lab Experiment",
+            "type": "IMAGE",
+            "url": "/uploads/war.jpg",
+            "thumbnailUrl": "/uploads/war.jpg",
+            "size": 512288,
+            "dateUploaded": "2024-02-01",
+            "timeUploaded": "09:22:11",
+            "user": "67959c37c8047ebb00e0c325"
+        },
+        {
+            "title": "Drama Club Performance",
+            "type": "VIDEO",
+            "url": "/uploads/drama-club-performance.mp4",
+            "thumbnailUrl": "/uploads/war.jpg",
+            "size": 15728640,
+            "dateUploaded": "2024-01-28",
+            "timeUploaded": "18:55:44",
+            "user": "67959c37c8047ebb00e0c325"
+        },
+        {
+            "title": "Math Olympiad Winners",
+            "type": "IMAGE",
+            "url": "/uploads/war.jpg",
+            "thumbnailUrl": "/uploads/war.jpg",
+            "size": 1536864,
+            "dateUploaded": "2024-02-02", 
+            "timeUploaded": "16:10:33",
+            "user": "67959c37c8047ebb00e0c325"
+        }
+    ]
+}

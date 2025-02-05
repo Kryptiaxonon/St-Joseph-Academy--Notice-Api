@@ -1,0 +1,58 @@
+{
+  "reports" : [
+    {
+        "title": "Annual Science Fair Report",
+        "reportInfo": {
+            "dateCreated": "2024-02-04",
+            "timeCreated": "14:30:00",
+            "reportDetails": "The science fair showcased innovative projects from students, highlighting creativity and research skills.",
+            "type": "MIXED"
+        }
+    },
+    {
+        "title": "Sports Day Summary",
+        "reportInfo": {
+            "dateCreated": "2024-01-20",
+            "timeCreated": "10:15:00",
+            "reportDetails": "Students participated in various track and field events, promoting physical fitness and teamwork.",
+            "type": "MEDIA"
+        } 
+    },
+    {
+        "title": "Workshop on AI & Robotics",
+        "reportInfo": {
+            "dateCreated": "2024-02-02",
+            "timeCreated": "16:45:00",
+            "reportDetails": "A hands-on workshop on Artificial Intelligence and Robotics was conducted by industry experts.",
+            "type": "MEDIA"
+        }
+    },
+    {
+        "title": "Annual Science Fair Report",
+        "reportInfo": {
+            "dateCreated": "2024-02-04",
+            "timeCreated": "14:30:00",
+            "reportDetails": "The science fair showcased innovative projects from students, highlighting creativity and research skills.",
+            "type": "TEXT"
+        }
+    },
+    {
+        "title": "Sports Day Summary",
+        "reportInfo": {
+            "dateCreated": "2024-01-20",
+            "timeCreated": "10:15:00",
+            "reportDetails": "Students participated in various track and field events, promoting physical fitness and teamwork.",
+            "type": "TEXT"
+        }
+    },
+    {
+        "title": "Workshop on AI & Robotics",
+        "reportInfo": {
+            "dateCreated": "2024-02-02",
+            "timeCreated": "16:45:00",
+            "reportDetails": "A hands-on workshop on Artificial Intelligence and Robotics was conducted by industry experts.",
+            "type": "TEXT"
+        }
+    }
+]
+}

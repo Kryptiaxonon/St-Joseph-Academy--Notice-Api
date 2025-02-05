@@ -1,0 +1,85 @@
+{
+ "notices" : [
+  {
+    "id": "1",
+    "title": "Annual Day Celebration",
+    "noticeInfo": {
+      "organisationName": "St. Joseph Academy",
+      "organisationAddress": "123 Main Street, Cityville",
+      "noticeDetails": "Join us for the Annual Day celebration featuring performances by students.",
+      "noticeType": "Exam"
+    },
+    "eventSchedule": {
+      "dateCreated": "2025-01-26",
+      "timeCreated": "14:30:00",
+      "dateFromStart": "2025-02-01",
+      "dateToEnd": "2025-02-01"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Mid-Term Examination Schedule",
+    "noticeInfo": {
+      "organisationName": "St. Joseph Academy",
+      "organisationAddress": "123 Main Street, Cityville",
+      "noticeDetails": "The mid-term exams will start from the 10th of February. Please refer to the attached schedule.",
+      "noticeType": "Examination"
+    },
+    "eventSchedule": {
+      "dateCreated": "2025-01-26",
+      "timeCreated": "14:30:00",
+      "dateFromStart": "2025-02-10",
+      "dateToEnd": "2025-02-20"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Public Holiday Notice",
+    "noticeInfo": {
+      "organisationName": "St. Joseph Academy",
+      "organisationAddress": "123 Main Street, Cityville",
+      "noticeDetails": "The school will remain closed on 26th January for Republic Day.",
+      "noticeType": "Holiday"
+    },
+    "eventSchedule": {
+      "dateCreated": "2025-01-26",
+      "timeCreated": "14:30:00",
+      "dateFromStart": "2025-01-26",
+      "dateToEnd": "2025-01-26"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Parent-Teacher Meeting",
+    "noticeInfo": {
+      "organisationName": "St. Joseph Academy",
+      "organisationAddress": "123 Main Street, Cityville",
+      "noticeDetails": "A parent-teacher meeting is scheduled to discuss student progress.",
+      "noticeType": "Holiday"
+    },
+    "eventSchedule": {
+      "dateCreated": "2025-01-26",
+      "timeCreated": "14:30:00",
+      "dateFromStart": "2025-02-05",
+      "dateToEnd": "2025-02-05"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Sports Day Announcement",
+    "noticeInfo": {
+      "organisationName": "St. Joseph Academy",
+      "organisationAddress": "123 Main Street, Cityville",
+      "noticeDetails": "The annual sports day will feature various athletic events. Parents are invited to attend.",
+      "noticeType": "Event"
+    },
+    "eventSchedule": {
+      "dateCreated": "2025-01-26",
+      "timeCreated": "14:30:00",
+      "dateFromStart": "2025-02-15",
+      "dateToEnd": "2025-02-15"
+    }
+  }
+]
+
+}

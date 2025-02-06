@@ -8,7 +8,7 @@ class AuthSyncService {
             serverUrl: config.serverUrl || 'http://localhost:3000',
             checkInterval: config.checkInterval || 30000,
             retryDelay: config.retryDelay || 60000,
-            maxRetries: config.maxRetries || 3,
+            maxRetries: config.maxRetries || 5,
             credentials: {
                 admissionNo: config.credentials.admissionNo,
                 password: config.credentials.password

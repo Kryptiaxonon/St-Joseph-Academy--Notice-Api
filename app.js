@@ -31,7 +31,7 @@ app.use(helmet());
 
 // Rate limiting
 const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000, // 15 minutes
+    windowMs: 5 * 60 * 1000, // 5 minutes
     max: 100 // limit each IP to 100 requests per windowMs
 });
 app.use('/api/', limiter);
@@ -72,13 +72,13 @@ app.get('/api/health', (req, res) => {
 });
 
 // MongoDB connection with retry logic
-async function connectWithRetry(retries = 5, delay = 5000) {
+async function connectWithRetry(retries = 10, delay = 10000) {
     for (let i = 0; i < retries; i++) {
         try {
             await mongoose.connect(MONGODB_URI, {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
-                serverSelectionTimeoutMS: 5000,
+                serverSelectionTimeoutMS: 10000,
             });
             console.log('Connected to MongoDB Atlas');
             return true;

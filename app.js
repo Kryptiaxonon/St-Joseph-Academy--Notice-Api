@@ -92,6 +92,7 @@ async function connectWithRetry(retries = 10, delay = 10000) {
 }
 
 // Application initialization
+
 async function initializeApp() {
     try {
         await connectWithRetry();

@@ -115,9 +115,7 @@ class AuthSyncService {
             }
         } catch (error) {
             console.error('Connection check failed:', {
-                message: error.message,
-                status: error.response?.status,
-                data: error.response?.data
+                message: error.message
             });
 
             if (error.response?.status === 401) {
@@ -167,9 +165,7 @@ class AuthSyncService {
             return results;
         } catch (error) {
             console.error('Sync failed:', {
-                message: error.message,
-                response: error.response?.data,
-                status: error.response?.status
+                message: error.message
             });
             this.config.onSyncError(error);
             throw error;
@@ -260,13 +256,12 @@ class AuthSyncService {
         };
     } catch (error) {
         console.error('Report sync failed:', {
-            message: error.message,
-            response: error.response?.data,
+            message: error.message
         });
         return {
             status: 'error',
-            error: error.message,
-            details: error.response?.data
+            error: error.message
+
         };
     }
 }
@@ -320,15 +315,13 @@ class AuthSyncService {
 
 //console.log('Media sync response:', response.data);
         return {
-            status: 'success',
-            synced: response.data.data
+            status: 'success'
         };
     } catch (error) {
         console.error('Media sync failed:', error);
         return {
             status: 'error',
-            error: error.message,
-            details: error.response?.data
+            error: error.message
         };
     }
 }
